@@ -7,7 +7,7 @@
     // },
 
     "visual": {
-        "progressBar": "accent"
+        "progressBar": "rainbow"
     },
     
     "installBehavior": {
