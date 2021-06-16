@@ -1,0 +1,35 @@
+{
+    "$schema": "https://aka.ms/winget-settings.schema.json",
+
+    // For documentation on these settings, see: https://aka.ms/winget-settings
+    // "source": {
+    //    "autoUpdateIntervalInMinutes": 5
+    // },
+
+    "visual": {
+        "progressBar": "accent"
+    },
+    
+    "installBehavior": {
+        "preferences": {
+            "scope": "user"
+        }
+    },
+    
+    "telemetry": {
+        "disable": true
+    },
+
+    "network": {
+        "downloader": "do",
+        "doProgressTimeoutInSeconds": 20
+    }
+    
+    // to enable the expermental Features
+    //"experimentalFeatures": {
+    //    "experimentalCmd": true,
+    //    "experimentalArg": false,
+    //    "packagedAPI": true,
+    //    "experimentalMSStore": true
+    }
+}
